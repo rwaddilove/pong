@@ -9,27 +9,21 @@
 import turtle
 import random
 
-
 def bat1_up() -> None:
     t1.sety(t1.ycor() + 10)
-
 
 def bat1_down() -> None:
     t1.sety(t1.ycor() - 10)
 
-
 def bat2_up() -> None:
     t2.sety(t2.ycor() + 10)
-
 
 def bat2_down() -> None:
     t2.sety(t2.ycor() - 10)
 
-
 def check_bats(ball_y):     # bat is +/- 50px from centre
     if ball_y < (t1.ycor() + 50) and ball_y > (t1.ycor() - 50): ball_dir[0] *= -1
     if ball_y < (t2.ycor() + 50) and ball_y > (t2.ycor() - 50): ball_dir[0] *= -1
-
 
 # ========== M A I N =============
 speed = 1                       # change this to make game faster or slower!
