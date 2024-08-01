@@ -1,6 +1,10 @@
-# Game of Pong by Roland Waddilove
+# Game of Pong
+
+*By Roland Waddilove*
 
 This is just a Python learning exercise. It's not meant to be useful, except for others learning Python. There may be better ways to write it. It uses the Turtle graphics module. More Python code examples at https://github.com/rwaddilove/
+
+### Instructions
 
 Keep the ball in play using the bats. One or two player.
 
